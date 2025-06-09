@@ -24,19 +24,19 @@ This tool is particularly useful for **digitizing, correcting, or reformatting**
 
 ##  Technologies Used
 
-###  Frontend
+# Frontend
 - **HTML, CSS, JavaScript** – For a responsive and interactive user interface
 
-###  Backend
+#  Backend
 - **Python + Flask** – Handles file uploads, OCR processing, and routing
 - **Werkzeug** – Secure file handling and temporary storage
 
-###  Text Extraction
+#  Text Extraction
 - **PyMuPDF (fitz)** – For extracting text from digitally encoded PDFs
 - **Tesseract OCR** (with Telugu language pack) – For scanned documents and images
 
 
-## Folder Structure
+# Folder Structure
 
 project-root/
 │
@@ -52,7 +52,7 @@ project-root/
 
 
 
-##  Installation
+#  Installation
 
 # 1. Install dependencies
 pip install -r requirements.txt
@@ -63,9 +63,9 @@ pip install -r requirements.txt
 sudo apt install tesseract-ocr tesseract-ocr-tel
 
 # For Windows:
-# Download Tesseract from https://github.com/tesseract-ocr/tesseract
-# Install and add the Tesseract path to your system environment variables
-# Telugu language file usually comes with the installer or can be added manually
+Download Tesseract from https://github.com/tesseract-ocr/tesseract
+Install and add the Tesseract path to your system environment variables
+Telugu language file usually comes with the installer or can be added manually
 
 # 3. Run the application
 python app.py
